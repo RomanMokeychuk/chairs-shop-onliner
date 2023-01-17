@@ -1,0 +1,23 @@
+{
+  "name": "chairs-shop-onliner",
+  "version": "1.0.0",
+  "description": "1. git status 2. git add . 3. git commint -m \"comment\" 4. git push origin branch_name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanMokeychuk/chairs-shop-onliner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanMokeychuk/chairs-shop-onliner/issues"
+  },
+  "homepage": "https://github.com/RomanMokeychuk/chairs-shop-onliner#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
