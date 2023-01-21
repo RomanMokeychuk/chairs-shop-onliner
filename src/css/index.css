@@ -18,6 +18,28 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.callback-block {
+  display: flex;
+  align-items: center; }
+  .callback-block__tel-namber {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000000;
+    margin-right: 40px; }
+  .callback-block__callback-button {
+    border-color: #f13c6e !important;
+    background: #ffffff; }
+
+.default-button {
+  border-radius: 40px;
+  color: #000000;
+  cursor: pointer;
+  padding: 12px 59px;
+  border: 2px solid;
+  font-size: 1.4rem;
+  line-height: 1.6rem; }
+
 .header-navigation {
   background-color: #e5e5e5; }
   .header-navigation__link {
@@ -31,3 +53,21 @@ a {
     align-items: center;
     justify-content: center;
     padding: 17px 0; }
+
+.header {
+  background: #ffffff; }
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0; }
+  .header__logo-block {
+    display: flex;
+    align-items: center; }
+  .header__logo-title {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.1em;
+    color: #f13c6e;
+    margin-left: 20px; }
