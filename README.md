@@ -19,7 +19,7 @@
 
 2. Выделить общие элементы
 
--   product-cards
+-   product-card
 -   sponsor-item
 -   info-block
 -   callback-block
