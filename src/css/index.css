@@ -117,6 +117,17 @@ a {
     border-color: #ffffff;
     color: #ffffff; }
 
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 60px;
+  background: #ffffff;
+  border: 0.5px solid #e5e5e5; }
+  .sponsor-item__img {
+    width: 149px;
+    height: 49px; }
+
 .header-navigation {
   background-color: #e5e5e5; }
   .header-navigation__link {
@@ -198,3 +209,13 @@ a {
     padding-bottom: 100px; }
   .info-blocks__item:not(:last-child) {
     margin-right: 30px; }
+
+.sponsors {
+  background: #ffffff; }
+  .sponsors__wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .sponsors__item {
+    width: 25%;
+    max-width: 25%;
+    box-sizing: border-box; }
