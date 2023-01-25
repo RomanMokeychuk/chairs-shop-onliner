@@ -5,7 +5,7 @@
 3. git commit -m "comment"
 4. git push origin branch_name
 
-5. Разбить наш сайт на блоки
+5. Разбить наш сайт на блоки(modules)
 
 -   header-navigation
 -   header
@@ -17,12 +17,13 @@
 -   footer
 -   copyright
 
-2. Выделить общие элементы
+2. Выделить общие элементы(common)
 
 -   product-card
 -   sponsor-item
 -   info-block
 -   callback-block
 -   default-button
+-   social-link
 
 3. Выделить общие цвета
