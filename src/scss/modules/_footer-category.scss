@@ -1,0 +1,36 @@
+.footer-category {
+    &__wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        padding: 60px 0;
+    }
+
+    &__title {
+        padding-bottom: 30px;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        position: relative;
+    }
+
+    &__link h4::after {
+        content: " ";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #efefef;
+        height: 1px;
+        box-sizing: border-box;
+        width: 255px;
+    }
+
+    &__main {
+        font-size: 1.2rem;
+        line-height: 2.8rem;
+    }
+}
